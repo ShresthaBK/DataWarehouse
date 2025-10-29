@@ -16,6 +16,7 @@ The pipeline processes raw CRM and ERP data stored in CSV files, cleans and stan
 
 ## 🧩 Project Structure
 python-data-warehouse/
+
 │
 ├── src/
 │ ├── bronze.py # Ingests raw CSV data into PostgreSQL (Bronze layer)
@@ -34,24 +35,19 @@ cies
 
 ## 🧰 Setup Guide
 
-### 1️⃣ Clone the Repository
+###Clone the Repository
 
-git clone https://github.com/<your-username>/python-data-warehouse.git
-cd python-data-warehouse
+>cd python-data-warehouse
 
-Create and Activate Virtual Environment
-python3 -m venv venv
-source venv/bin/activate
+>Create and Activate Virtual Environment
+>python3 -m venv venv
+>source venv/bin/activate
 
-Install Dependencies
-pip install -r requirements.txt
-
+###Install Dependencies
+>pip install -r requirements.txt
 
 
+##Future enahancmenet
 Add orchestration using Airflow or Prefect
-
-Integrate Great Expectations for data validation
-
 Automate incremental data loads
-
-Visualize Gold layer using Power BI, Tableau, or Streamlit
+Visualize Gold layer using Power BI, Tableau
